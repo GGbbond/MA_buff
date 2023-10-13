@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DFMT_LOCALE
 
-CXX_INCLUDES = -I/home/fuziming/MA/buffkaigan/1.1/devices/camera -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/fuziming/MA/buffkaigan/2.2/devices/camera -isystem /usr/include/opencv4
 
 CXX_FLAGS = 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/fuziming/MA/buffkaigan/1.1/devices
+# Install script for directory: /home/fuziming/MA/buffkaigan/2.2/devices
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

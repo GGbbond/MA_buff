@@ -1,7 +1,7 @@
 devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.o: \
- /home/fuziming/MA/buffkaigan/1.1/devices/camera/mv_camera.cpp \
+ /home/fuziming/MA/buffkaigan/2.2/devices/camera/mv_camera.cpp \
  /usr/include/stdc-predef.h \
- /home/fuziming/MA/buffkaigan/1.1/devices/camera/mv_camera.hpp \
+ /home/fuziming/MA/buffkaigan/2.2/devices/camera/mv_camera.hpp \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
@@ -351,6 +351,6 @@ devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.o: \
  /usr/local/include/fmt/color.h /usr/local/include/fmt/format.h \
  /usr/local/include/fmt/core.h /usr/include/c++/11/iterator \
  /usr/include/c++/11/bits/stream_iterator.h /usr/local/include/fmt/core.h \
- /home/fuziming/MA/buffkaigan/1.1/devices/camera/MVSDK/CameraApi.h \
- /home/fuziming/MA/buffkaigan/1.1/devices/camera/MVSDK/CameraDefine.h \
- /home/fuziming/MA/buffkaigan/1.1/devices/camera/MVSDK/CameraStatus.h
+ /home/fuziming/MA/buffkaigan/2.2/devices/camera/MVSDK/CameraApi.h \
+ /home/fuziming/MA/buffkaigan/2.2/devices/camera/MVSDK/CameraDefine.h \
+ /home/fuziming/MA/buffkaigan/2.2/devices/camera/MVSDK/CameraStatus.h

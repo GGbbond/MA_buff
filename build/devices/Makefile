@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fuziming/MA/buffkaigan/1.1
+CMAKE_SOURCE_DIR = /home/fuziming/MA/buffkaigan/2.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fuziming/MA/buffkaigan/1.1/build
+CMAKE_BINARY_DIR = /home/fuziming/MA/buffkaigan/2.2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/fuziming/MA/buffkaigan/1.1/build/CMakeFiles /home/fuziming/MA/buffkaigan/1.1/build/devices//CMakeFiles/progress.marks
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 devices/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuziming/MA/buffkaigan/1.1/build/CMakeFiles 0
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/fuziming/MA/buffkaigan/2.2/build/CMakeFiles /home/fuziming/MA/buffkaigan/2.2/build/devices//CMakeFiles/progress.marks
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 devices/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fuziming/MA/buffkaigan/2.2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 devices/clean
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 devices/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 devices/preinstall
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 devices/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 devices/preinstall
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 devices/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 devices/CMakeFiles/devices.dir/rule:
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 devices/CMakeFiles/devices.dir/rule
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 devices/CMakeFiles/devices.dir/rule
 .PHONY : devices/CMakeFiles/devices.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ devices: devices/CMakeFiles/devices.dir/rule
 
 # fast build rule for target.
 devices/fast:
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(MAKE) $(MAKESILENT) -f devices/CMakeFiles/devices.dir/build.make devices/CMakeFiles/devices.dir/build
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(MAKE) $(MAKESILENT) -f devices/CMakeFiles/devices.dir/build.make devices/CMakeFiles/devices.dir/build
 .PHONY : devices/fast
 
 camera/mv_camera.o: camera/mv_camera.cpp.o
@@ -135,7 +135,7 @@ camera/mv_camera.o: camera/mv_camera.cpp.o
 
 # target to build an object file
 camera/mv_camera.cpp.o:
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(MAKE) $(MAKESILENT) -f devices/CMakeFiles/devices.dir/build.make devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.o
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(MAKE) $(MAKESILENT) -f devices/CMakeFiles/devices.dir/build.make devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.o
 .PHONY : camera/mv_camera.cpp.o
 
 camera/mv_camera.i: camera/mv_camera.cpp.i
@@ -143,7 +143,7 @@ camera/mv_camera.i: camera/mv_camera.cpp.i
 
 # target to preprocess a source file
 camera/mv_camera.cpp.i:
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(MAKE) $(MAKESILENT) -f devices/CMakeFiles/devices.dir/build.make devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.i
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(MAKE) $(MAKESILENT) -f devices/CMakeFiles/devices.dir/build.make devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.i
 .PHONY : camera/mv_camera.cpp.i
 
 camera/mv_camera.s: camera/mv_camera.cpp.s
@@ -151,7 +151,7 @@ camera/mv_camera.s: camera/mv_camera.cpp.s
 
 # target to generate assembly for a file
 camera/mv_camera.cpp.s:
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(MAKE) $(MAKESILENT) -f devices/CMakeFiles/devices.dir/build.make devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.s
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(MAKE) $(MAKESILENT) -f devices/CMakeFiles/devices.dir/build.make devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.s
 .PHONY : camera/mv_camera.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/fuziming/MA/buffkaigan/1.1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/fuziming/MA/buffkaigan/2.2/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

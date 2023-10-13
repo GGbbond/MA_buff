@@ -1,7 +1,5 @@
-CMakeFiles/MA.dir/main.cpp.o: /home/fuziming/MA/buffkaigan/1.1/main.cpp \
- /usr/include/stdc-predef.h /usr/include/opencv4/opencv2/opencv.hpp \
- /usr/include/opencv4/opencv2/opencv_modules.hpp \
- /usr/include/opencv4/opencv2/core.hpp \
+CMakeFiles/MA.dir/main.cpp.o: /home/fuziming/MA/buffkaigan/2.2/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
  /usr/include/opencv4/opencv2/core/version.hpp /usr/include/c++/11/limits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -79,7 +77,9 @@ CMakeFiles/MA.dir/main.cpp.o: /home/fuziming/MA/buffkaigan/1.1/main.cpp \
  /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
  /usr/include/c++/11/bits/predefined_ops.h \
  /usr/include/c++/11/bits/range_access.h \
- /usr/include/opencv4/opencv2/core/base.hpp /usr/include/c++/11/climits \
+ /usr/include/opencv4/opencv2/core/base.hpp \
+ /usr/include/opencv4/opencv2/opencv_modules.hpp \
+ /usr/include/c++/11/climits \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -251,6 +251,7 @@ CMakeFiles/MA.dir/main.cpp.o: /home/fuziming/MA/buffkaigan/1.1/main.cpp \
  /usr/include/opencv4/opencv2/core/optim.hpp \
  /usr/include/opencv4/opencv2/core/ovx.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
+ /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/calib3d.hpp \
  /usr/include/opencv4/opencv2/features2d.hpp \
  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
@@ -345,13 +346,13 @@ CMakeFiles/MA.dir/main.cpp.o: /home/fuziming/MA/buffkaigan/1.1/main.cpp \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
- /home/fuziming/MA/buffkaigan/1.1/devices/camera/mv_camera.hpp \
+ /home/fuziming/MA/buffkaigan/2.2/devices/camera/mv_camera.hpp \
  /usr/local/include/fmt/color.h /usr/local/include/fmt/format.h \
  /usr/local/include/fmt/core.h /usr/include/c++/11/iterator \
  /usr/include/c++/11/bits/stream_iterator.h /usr/local/include/fmt/core.h \
- /home/fuziming/MA/buffkaigan/1.1/devices/camera/MVSDK/CameraApi.h \
- /home/fuziming/MA/buffkaigan/1.1/devices/camera/MVSDK/CameraDefine.h \
- /home/fuziming/MA/buffkaigan/1.1/devices/camera/MVSDK/CameraStatus.h \
+ /home/fuziming/MA/buffkaigan/2.2/devices/camera/MVSDK/CameraApi.h \
+ /home/fuziming/MA/buffkaigan/2.2/devices/camera/MVSDK/CameraDefine.h \
+ /home/fuziming/MA/buffkaigan/2.2/devices/camera/MVSDK/CameraStatus.h \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \

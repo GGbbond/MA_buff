@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fuziming/MA/buffkaigan/1.1/devices/camera/mv_camera.cpp" "devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.o" "gcc" "devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.o.d"
+  "/home/fuziming/MA/buffkaigan/2.2/devices/camera/mv_camera.cpp" "devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.o" "gcc" "devices/CMakeFiles/devices.dir/camera/mv_camera.cpp.o.d"
   )
 
 # Targets to which this target links.
