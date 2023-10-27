@@ -1,6 +1,0 @@
-/home/fuziming/MA/buffkaigan/2.2/build/CMakeFiles/MA.dir
-/home/fuziming/MA/buffkaigan/2.2/build/CMakeFiles/edit_cache.dir
-/home/fuziming/MA/buffkaigan/2.2/build/CMakeFiles/rebuild_cache.dir
-/home/fuziming/MA/buffkaigan/2.2/build/devices/CMakeFiles/devices.dir
-/home/fuziming/MA/buffkaigan/2.2/build/devices/CMakeFiles/edit_cache.dir
-/home/fuziming/MA/buffkaigan/2.2/build/devices/CMakeFiles/rebuild_cache.dir
