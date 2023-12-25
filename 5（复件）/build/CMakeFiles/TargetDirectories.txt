@@ -1,0 +1,3 @@
+/home/fuziming/MA/Deep_learing/用openvino部署模型/5/build/CMakeFiles/main.dir
+/home/fuziming/MA/Deep_learing/用openvino部署模型/5/build/CMakeFiles/edit_cache.dir
+/home/fuziming/MA/Deep_learing/用openvino部署模型/5/build/CMakeFiles/rebuild_cache.dir
